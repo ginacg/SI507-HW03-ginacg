@@ -1,3 +1,5 @@
+import random
+
 def ask_question():
     question = input("What is your question?")
     check_question(question)
