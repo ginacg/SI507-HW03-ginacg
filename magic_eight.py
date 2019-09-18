@@ -12,7 +12,7 @@ def answer_question():
 def check_question(question):
     if question[-1] is "?":
         answer_question()
-    elif question is "quit" or "Quit" or "quit." or "Quit.":
+    elif question == "quit":
         print("Talk to you later.")
     else:
         ask_question()
