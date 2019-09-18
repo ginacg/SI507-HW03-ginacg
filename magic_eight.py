@@ -14,3 +14,5 @@ def check_question(question):
         print("Talk to you later.")
     else:
         ask_question()
+
+ask_question()
